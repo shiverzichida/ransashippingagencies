@@ -2,18 +2,30 @@
   "version": 2,
   "cleanUrls": true,
   "trailingSlash": false,
-  "routes": [
+  "rewrites": [
     {
-      "src": "/armada",
-      "dest": "/armada.php"
+      "source": "/armada",
+      "destination": "/armada.html"
     },
     {
-      "src": "/energi",
-      "dest": "/energi.php"
+      "source": "/armada.php",
+      "destination": "/armada.html"
     },
     {
-      "src": "/(.*)",
-      "dest": "/$1"
+      "source": "/armada/",
+      "destination": "/armada.html"
+    },
+    {
+      "source": "/energi",
+      "destination": "/energi.html"
+    },
+    {
+      "source": "/energi.php",
+      "destination": "/energi.html"
+    },
+    {
+      "source": "/energi/",
+      "destination": "/energi.html"
     }
   ],
   "headers": [

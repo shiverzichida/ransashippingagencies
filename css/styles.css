@@ -414,7 +414,7 @@ textarea {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 18px;
-  align-items: start;
+  align-items: stretch;
 }
 
 @media (max-width: 992px) {
@@ -446,6 +446,7 @@ textarea {
   transform-style: preserve-3d;
   transition: transform 420ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 420ms cubic-bezier(0.16, 1, 0.3, 1), border-color 320ms ease;
   min-height: 248px;
+  height: 100%;
 }
 
 .division-card::before {

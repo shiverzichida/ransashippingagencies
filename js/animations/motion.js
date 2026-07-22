@@ -36,12 +36,13 @@ export function setupMotion() {
       stagger: 0.12
     });
     window.gsap.from(".division-card", {
-      y: 55,
       opacity: 0,
+      scale: 0.96,
       duration: 0.85,
       ease: "expo.out",
       stagger: 0.14,
-      delay: 0.2
+      delay: 0.2,
+      clearProps: "transform"
     });
 
     // Hero Parallax Effects

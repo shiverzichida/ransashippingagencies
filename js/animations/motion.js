@@ -1,5 +1,7 @@
 export function setupMotion() {
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const isCoarsePointer = window.matchMedia("(pointer: coarse)").matches;
+  const isSmallViewport = window.matchMedia("(max-width: 860px)").matches;
   const sections = document.querySelectorAll(".section-observe");
   sections.forEach((section) => section.classList.add("is-visible"));
   setupCurrentSectionState(sections);
@@ -7,7 +9,7 @@ export function setupMotion() {
     setupCounters(false);
     return;
   }
-  if (window.Lenis && window.ScrollTrigger) {
+  if (window.Lenis && window.ScrollTrigger && !isCoarsePointer && !isSmallViewport) {
     const lenis = new window.Lenis({ lerp: 0.08, smoothWheel: true });
     lenis.on("scroll", window.ScrollTrigger.update);
     window.gsap.ticker.add((time) => {
@@ -101,11 +103,6 @@ export function setupMotion() {
         }
       );
     }
-
-    // Native Scroll Listener for Mobile Touch Devices
-    window.addEventListener("scroll", () => {
-      if (window.ScrollTrigger) window.ScrollTrigger.update();
-    }, { passive: true });
 
     window.addEventListener("resize", () => {
       if (window.ScrollTrigger) window.ScrollTrigger.refresh();

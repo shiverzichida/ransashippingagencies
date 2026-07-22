@@ -724,66 +724,24 @@ section:not(.hero) {
 }
 
 .proof-bar {
-  padding: 34px 0 54px !important;
+  padding: clamp(42px, 6vw, 74px) 0 !important;
   background: #FFFFFF;
 }
 
-.proof-grid {
+.proof-heading {
   width: min(1180px, calc(100% - 64px));
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 14px;
+  padding-left: clamp(0px, 1.6vw, 24px);
 }
 
-.proof-grid article {
-  position: relative;
-  min-height: 170px;
-  padding: 22px;
-  border: 1px solid #CBD5E1;
-  border-top: 4px solid var(--ransa-red);
-  border-radius: 14px;
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 100%);
-  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
-  overflow: hidden;
-}
-
-.proof-grid article:nth-child(even) {
-  border-top-color: var(--ransa-blue);
-}
-
-.proof-grid article::after {
-  content: "";
-  position: absolute;
-  right: -32px;
-  bottom: -32px;
-  width: 104px;
-  height: 104px;
-  border: 14px solid rgba(45, 52, 144, 0.07);
-  transform: rotate(45deg);
-}
-
-.proof-grid span {
-  display: block;
-  color: var(--ransa-red);
-  font-size: 0.78rem;
+.proof-heading h2 {
+  margin: 0;
+  color: var(--navy);
+  font-size: clamp(2.35rem, 6vw, 6.4rem);
   font-weight: 900;
+  line-height: 0.92;
+  letter-spacing: -0.07em;
   text-transform: uppercase;
-}
-
-.proof-grid strong {
-  display: block;
-  margin-top: 28px;
-  color: var(--ransa-dark);
-  font-size: 1.16rem;
-  line-height: 1.15;
-}
-
-.proof-grid p {
-  margin: 10px 0 0;
-  color: var(--muted);
-  font-size: 0.92rem;
-  line-height: 1.55;
 }
 
 .capabilities {
@@ -2124,7 +2082,6 @@ section:not(.hero) {
   .section-heading,
   .company-grid,
   .contact,
-  .proof-grid,
   .port-coverage-grid,
   .capability-strip,
   .ops-layout,
@@ -2193,7 +2150,7 @@ section:not(.hero) {
     padding: 28px 0 42px !important;
   }
 
-  .proof-grid {
+  .proof-heading {
     width: min(100% - 32px, 460px);
   }
 

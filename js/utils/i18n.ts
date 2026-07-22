@@ -10,6 +10,16 @@ const dictionary: Record<string, Record<Locale, string>> = {
   heroTitle: { id: "Ransa Group", en: "Ransa Group" },
   heroTitleMain: { id: "RANSA GROUP", en: "RANSA GROUP" },
   heroSubtitle: { id: "INTEGRATED SHIPPING, LOGISTICS, & GLOBAL EXPORT SOLUTIONS", en: "INTEGRATED SHIPPING, LOGISTICS, & GLOBAL EXPORT SOLUTIONS" },
+  heroExploreBtn: { id: "EXPLORE OUR DIVISIONS", en: "EXPLORE OUR DIVISIONS" },
+  cardAgenciesTitle: { id: "RANSA AGENCIES KALBARINDO", en: "RANSA AGENCIES KALBARINDO" },
+  cardAgenciesSub: { id: "MARINE & PORT AGENCIES", en: "MARINE & PORT AGENCIES" },
+  cardAgenciesBtn: { id: "REQUEST PORT AGENCY", en: "REQUEST PORT AGENCY" },
+  cardArmadaTitle: { id: "RANSA ARMADA TANGGUH", en: "RANSA ARMADA TANGGUH" },
+  cardArmadaSub: { id: "INTEGRATED LOGISTICS & CARGO", en: "INTEGRATED LOGISTICS & CARGO" },
+  cardArmadaBtn: { id: "VIEW LOGISTICS", en: "VIEW LOGISTICS" },
+  cardEnergiTitle: { id: "RANSA ENERGI MUDA", en: "RANSA ENERGI MUDA" },
+  cardEnergiSub: { id: "GLOBAL EXPORT COMMODITIES", en: "GLOBAL EXPORT COMMODITIES" },
+  cardEnergiBtn: { id: "VIEW COMMODITIES", en: "VIEW COMMODITIES" },
   heroCopy: {
     id: "Menaungi layanan maritime agencies, armada operasional, dan energi muda dengan standar pelayanan premium untuk rantai pasok Indonesia.",
     en: "Uniting maritime agencies, operational fleet support, and young energy supply with premium service standards for Indonesia's supply chain."

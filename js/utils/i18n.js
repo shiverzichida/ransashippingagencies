@@ -12,7 +12,7 @@ const dictionary = {
   cardAgenciesTitle: { id: "RANSA AGENCIES KALBARINDO", en: "RANSA AGENCIES KALBARINDO" },
   cardAgenciesSub: { id: "MARINE & PORT AGENCIES", en: "MARINE & PORT AGENCIES" },
   cardAgenciesCopy: { id: "Efficient Port Clearance, Ship Supplies, Crew Change, Syahbandar Services, Special Operations in West Kalimantan.", en: "Efficient Port Clearance, Ship Supplies, Crew Change, Syahbandar Services, Special Operations in West Kalimantan." },
-  cardAgenciesBtn: { id: "VIEW SERVICES", en: "VIEW SERVICES" },
+  cardAgenciesBtn: { id: "REQUEST PORT AGENCY", en: "REQUEST PORT AGENCY" },
   cardArmadaTitle: { id: "RANSA ARMADA TANGGUH", en: "RANSA ARMADA TANGGUH" },
   cardArmadaSub: { id: "INTEGRATED LOGISTICS & CARGO", en: "INTEGRATED LOGISTICS & CARGO" },
   cardArmadaCopy: { id: "Container Shipping, Trucking, Custom Clearance, Stevedoring, Distribution, Special Project Cargo Handling.", en: "Container Shipping, Trucking, Custom Clearance, Stevedoring, Distribution, Special Project Cargo Handling." },

@@ -34,6 +34,13 @@ export function setupInquiryForm() {
 
 function getPayload(data) {
   const service = getValue(data, "service");
+  const company = getValue(data, "company");
+  const inquiryType = getValue(data, "inquiry_type");
+  const messageParts = [
+    company ? `Company: ${company}` : "",
+    inquiryType ? `Inquiry Type: ${inquiryType}` : "",
+    getValue(data, "message")
+  ].filter(Boolean);
   return {
     division: getValue(data, "division") || service || "General Ransa Group",
     name: getValue(data, "name"),
@@ -42,7 +49,7 @@ function getPayload(data) {
     service,
     commodity: getValue(data, "commodity"),
     fleet_type: getValue(data, "fleet_type"),
-    message: getValue(data, "message")
+    message: messageParts.join("\n\n")
   };
 }
 

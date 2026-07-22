@@ -247,6 +247,11 @@
           <p class="section-kicker">RESERVASI ARMADA</p>
           <h2>Minta Penawaran Logistik & Armada</h2>
           <p>Isi formulir di samping untuk mendapatkan estimasi biaya pengiriman, ketersediaan unit armada, dan penawaran khusus untuk proyek Anda.</p>
+          <div class="direct-contact-card">
+            <h4>FAST FLEET RESPONSE</h4>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/628115750555" target="_blank" rel="noopener">+62 811 575 0555</a></p>
+            <p>Use WhatsApp for urgent fleet availability, trucking route, or site logistics coordination.</p>
+          </div>
         </div>
 
         <form class="inquiry-form" action="api/contact" method="POST" data-inquiry-form>
@@ -254,6 +259,10 @@
           <label>
             Nama Lengkap / Perusahaan
             <input type="text" name="name" required placeholder="Contoh: PT. Logistics Prima / Bpk. Hendra">
+          </label>
+          <label>
+            Nama Perusahaan
+            <input type="text" name="company" placeholder="PT. Logistics Prima / Project owner">
           </label>
           <label>
             Email Perusahaan
@@ -274,7 +283,7 @@
               <option value="Open Yard & Site Logistics">Open Yard & Management Site</option>
             </select>
           </label>
-          <label>
+          <label class="form-message-field">
             Detail Kargo & Rute Pengiriman
             <textarea name="message" rows="4" required placeholder="Jelaskan jenis kargo, tonase, lokasi asal (Origin), dan lokasi tujuan (Destination)..."></textarea>
           </label>

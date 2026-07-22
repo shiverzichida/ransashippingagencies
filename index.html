@@ -77,7 +77,7 @@
               </div>
               <div class="card-body-content">
                 <h3 class="card-body-title" data-i18n="cardAgenciesSub">MARINE & PORT AGENCIES</h3>
-                <a href="#contact" class="card-action-btn button-red" data-i18n="cardAgenciesBtn">VIEW SERVICES</a>
+                <a href="#contact" class="card-action-btn button-red" data-i18n="cardAgenciesBtn">REQUEST PORT AGENCY</a>
               </div>
             </article>
 
@@ -118,6 +118,31 @@
             </article>
 
           </div>
+        </div>
+      </section>
+
+      <section class="proof-bar section-observe" aria-label="Ransa B2B operational proof" data-section="proofBar">
+        <div class="proof-grid">
+          <article>
+            <span>Coverage</span>
+            <strong>Indonesian Seas</strong>
+            <p>Port agency, fleet support, and commodity routing across strategic domestic lanes.</p>
+          </article>
+          <article>
+            <span>Response</span>
+            <strong>WhatsApp + Form</strong>
+            <p>Inquiry is routed by service line to the right business unit.</p>
+          </article>
+          <article>
+            <span>Operations</span>
+            <strong>Port, Fleet, Export</strong>
+            <p>From vessel clearance to cargo movement and commodity quotation.</p>
+          </article>
+          <article>
+            <span>Documentation</span>
+            <strong>Company Profile Ready</strong>
+            <p>RAK, RAT, and REM profiles support procurement and partner review.</p>
+          </article>
         </div>
       </section>
 
@@ -411,6 +436,11 @@
           <p class="section-kicker" data-i18n="contactKicker">Hubungi kami</p>
           <h2 data-i18n="contactTitle">Kirim inquiry, biarkan sistem mengarahkannya.</h2>
           <p data-i18n="contactCopy">Pilih kebutuhan Anda agar pesan masuk ke jalur layanan yang paling relevan.</p>
+          <div class="direct-contact-card">
+            <h4>FAST RESPONSE CHANNEL</h4>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/628115750555" target="_blank" rel="noopener">+62 811 575 0555</a></p>
+            <p>Use WhatsApp for urgent port calls, fleet availability, or export quotation follow-up.</p>
+          </div>
         </div>
         <form class="inquiry-form" action="api/contact" method="post" data-inquiry-form>
           <label>
@@ -422,6 +452,14 @@
             <input type="email" name="email" autocomplete="email" required>
           </label>
           <label>
+            <span>Company</span>
+            <input type="text" name="company" autocomplete="organization" placeholder="Company / Vessel owner / Buyer">
+          </label>
+          <label>
+            <span>Phone / WhatsApp</span>
+            <input type="tel" name="phone" autocomplete="tel" placeholder="+62 811 575 0555">
+          </label>
+          <label>
             <span data-i18n="fieldService">Layanan</span>
             <select name="service" required>
               <option value="Agencies">Ransa Agencies Kalbarindo</option>
@@ -430,8 +468,17 @@
             </select>
           </label>
           <label>
+            <span>Inquiry Type</span>
+            <select name="inquiry_type">
+              <option value="Port Agency Support">Port Agency Support</option>
+              <option value="Fleet / Logistics Quote">Fleet / Logistics Quote</option>
+              <option value="Commodity Export Quote">Commodity Export Quote</option>
+              <option value="Partnership / General">Partnership / General</option>
+            </select>
+          </label>
+          <label class="form-message-field">
             <span data-i18n="fieldMessage">Pesan</span>
-            <textarea name="message" rows="5" required></textarea>
+            <textarea name="message" rows="5" required placeholder="Tell us vessel name, cargo type, origin/destination, quantity, timeline, or document needs."></textarea>
           </label>
           <button class="button button-primary" type="submit" data-i18n="submitInquiry">Kirim Inquiry</button>
           <p class="form-status" role="status" data-form-status></p>
@@ -439,12 +486,11 @@
       </section>
     </main>
 
-    <a class="whatsapp-float" href="https://wa.me/6200000000000" target="_blank" rel="noopener" aria-label="Chat WhatsApp Ransa">WA</a>
+    <a class="whatsapp-float" href="https://wa.me/628115750555" target="_blank" rel="noopener" aria-label="Chat WhatsApp Ransa">WA</a>
 
     <footer class="site-footer">
       <img src="assets/images/ransa-logo-transparent.png" alt="Ransa Group">
       <p data-i18n="footerCopy">Integrated maritime, fleet, and energy portal for Indonesia.</p>
-      <a href="admin/login" data-i18n="adminLink">Admin Login</a>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>

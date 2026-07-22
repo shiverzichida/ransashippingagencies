@@ -16,7 +16,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const { division, name, email, phone, service, commodity, fleet_type, message } = req.body;
+    const { division, name, email, phone, company, service, commodity, fleet_type, message } = req.body;
 
     if (!name || !email || !message) {
       return res.status(400).json({ success: false, message: 'Name, email, and message are required.' });
@@ -43,7 +43,7 @@ export default async function handler(req, res) {
           service_line: service || '',
           commodity: commodity || '',
           fleet_type: fleet_type || '',
-          message
+          message: company ? `Company: ${company}\n\n${message}` : message
         })
       });
 

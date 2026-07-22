@@ -15,6 +15,8 @@ Corporate website for Ransa Group, covering Ransa Agencies Kalbarindo, Ransa Arm
 
 ## Main Routes
 - `/` -> `index.html`
+- `/homepage-old/` -> previous homepage snapshot for quick rollback/reference
+- `/homepage2/` -> homepage 2 prototype snapshot
 - `/armada` -> `armada.html`
 - `/energi` -> `energi.html`
 - `/api/contact` -> `api/contact.js`
@@ -51,7 +53,9 @@ SUPABASE_ANON_KEY
 Do not commit `.env` files or Supabase service-role secrets.
 
 ## Structure
-- `index.html` - Main Ransa Group landing page
+- `index.html` - Active Ransa Group homepage, currently using the homepage 2 concept with the original navbar style
+- `homepage-old/index.html` - Previous homepage preserved so the active home can be swapped back if needed
+- `homepage2/index.html` - Homepage 2 prototype preserved as a standalone preview/reference
 - `armada.html` - Vercel/static page for PT. Ransa Armada Tangguh
 - `energi.html` - Vercel/static page for PT. Ransa Energi Muda
 - `css/styles.css` - Global styling and page-specific sections
@@ -71,6 +75,12 @@ Do not commit `.env` files or Supabase service-role secrets.
 - `.htaccess` is for Apache/PHP hosting and is not used by Vercel.
 
 For new development, prefer the Vercel/static files unless the project intentionally moves back to PHP hosting.
+
+## Homepage Swap Notes
+- Current active home: `index.html` uses the `homepage2` concept.
+- Previous home backup: `homepage-old/index.html`.
+- To restore the previous home, copy `homepage-old/index.html` over `index.html` and keep the existing shared assets/CSS.
+- To re-apply the homepage 2 concept later, copy `homepage2/index.html` over `index.html` and ensure the original `site-header` navbar is preserved.
 
 ## Design References
 - `COMPRO - RAK.pdf` drives the RAK visual language: white space, red/blue blocks, diagonal cuts, vessel imagery.

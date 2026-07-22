@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portal korporat Ransa Group untuk layanan maritime agencies, armada, energi, dan commodity supply.">
+    <title>Ransa Group | Integrated Maritime & Energy Portal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Lewati ke konten</a>
+
+    <header class="site-header" data-header>
+      <nav class="nav-shell" aria-label="Navigasi utama">
+        <a class="brand" href="/" aria-label="Ransa Group beranda">
+          <img src="assets/images/ransa-logo-transparent.png" alt="Ransa Group">
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" data-nav-toggle>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links" id="primary-nav" data-nav-menu>
+          <a href="/#about" data-i18n="navAbout">Tentang</a>
+          <a href="/#agencies" data-i18n="navAgencies">Agencies</a>
+          <a href="/armada" data-i18n="navArmada">Armada</a>
+          <a href="/energi" data-i18n="navEnergy">Energi</a>
+          <a href="/#contact" data-i18n="navContact">Kontak</a>
+          <button class="language-toggle" type="button" data-lang-toggle aria-label="Ganti bahasa">EN</button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section-observe" id="home" data-section="hero">
+        <div class="hero-media" aria-hidden="true">
+          <div class="hero-slider">
+            <div class="hero-slide is-active" style="background-image: url('assets/images/industrial-port-header.png');"></div>
+            <div class="hero-slide" style="background-image: url('assets/images/stevedoring-port-header.png');"></div>
+            <div class="hero-slide" style="background-image: url('assets/pdf-reference/rat-p1-1.jpg');"></div>
+          </div>
+          <div class="hero-gradient-overlay"></div>
+        </div>
+        
+        <div class="hero-top-container">
+          <h1 class="hero-main-title" data-i18n="heroTitleMain">RANSA GROUP</h1>
+          <p class="hero-main-subtitle" data-i18n="heroSubtitle">INTEGRATED SHIPPING, LOGISTICS, & GLOBAL EXPORT SOLUTIONS</p>
+          <div class="hero-cta-wrapper">
+            <a class="button button-explore-divisions" href="#hero-cards-section" data-i18n="heroExploreBtn">EXPLORE OUR DIVISIONS</a>
+          </div>
+          <div class="hero-logo-motion" aria-label="Ransa Group animated logo">
+            <span class="logo-orbit logo-orbit-one" aria-hidden="true"></span>
+            <span class="logo-orbit logo-orbit-two" aria-hidden="true"></span>
+            <img src="assets/images/ransa-logo-transparent.png" alt="Ransa Group">
+            <span class="logo-scanline" aria-hidden="true"></span>
+          </div>
+        </div>
+
+        <div class="hero-cards-wrapper" id="hero-cards-section">
+          <div class="hero-cards-grid">
+
+            <!-- Card 1: Ransa Agencies Kalbarindo (Red Theme) -->
+            <article class="division-card card-red" id="agencies">
+              <div class="card-badge">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M2 20h20"/>
+                  <path d="M5 16l2-8h10l2 8"/>
+                  <path d="M12 4v4"/>
+                  <path d="M9 4h6"/>
+                </svg>
+              </div>
+              <div class="card-header-banner">
+                <h2 data-i18n="cardAgenciesTitle">RANSA AGENCIES<br><small>KALBARINDO</small></h2>
+              </div>
+              <div class="card-body-content">
+                <h3 class="card-body-title" data-i18n="cardAgenciesSub">MARINE & PORT AGENCIES</h3>
+                <a href="#contact" class="card-action-btn button-red" data-i18n="cardAgenciesBtn">REQUEST PORT AGENCY</a>
+              </div>
+            </article>
+
+            <!-- Card 2: Ransa Armada Tangguh (White Theme) -->
+            <article class="division-card card-white" id="armada">
+              <div class="card-badge">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="1" y="3" width="15" height="13" rx="2"/>
+                  <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+                  <circle cx="5.5" cy="18.5" r="2.5"/>
+                  <circle cx="18.5" cy="18.5" r="2.5"/>
+                </svg>
+              </div>
+              <div class="card-header-banner">
+                <h2 data-i18n="cardArmadaTitle">RANSA ARMADA<br><small>TANGGUH</small></h2>
+              </div>
+              <div class="card-body-content">
+                <h3 class="card-body-title" data-i18n="cardArmadaSub">INTEGRATED LOGISTICS & CARGO</h3>
+                <a href="/armada" class="card-action-btn button-dark" data-i18n="cardArmadaBtn">VIEW LOGISTICS</a>
+              </div>
+            </article>
+
+            <!-- Card 3: Ransa Energi Muda (Blue Theme) -->
+            <article class="division-card card-blue" id="energi">
+              <div class="card-badge">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.4 19 2c1 2 2 4.1 2 7 0 4.4-3.6 8-8 8z"/>
+                  <path d="M11 20v-8"/>
+                </svg>
+              </div>
+              <div class="card-header-banner">
+                <h2 data-i18n="cardEnergiTitle">RANSA ENERGI<br><small>MUDA</small></h2>
+              </div>
+              <div class="card-body-content">
+                <h3 class="card-body-title" data-i18n="cardEnergiSub">GLOBAL EXPORT COMMODITIES</h3>
+                <a href="/energi" class="card-action-btn button-blue" data-i18n="cardEnergiBtn">VIEW COMMODITIES</a>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="proof-bar section-observe" aria-label="Ransa Group main service" data-section="proofBar">
+        <div class="proof-heading">
+          <h2>RANSA GROUP MAIN SERVICE</h2>
+        </div>
+      </section>
+
+      <section class="capabilities section-observe" aria-label="Keunggulan layanan" data-section="capabilities">
+        <div class="capability-strip">
+          <article class="capability-card">
+            <div class="capability-media">
+              <img src="assets/pdf-reference/rak-p2-2.jpg" alt="Port Agency" loading="lazy">
+            </div>
+            <div class="capability-info">
+              <span class="capability-num">01</span>
+              <h2 data-i18n="capabilityOne">Port Agency</h2>
+              <p data-i18n="capabilityOneCopy">Dokumen, clearance, crew, dan koordinasi sandar.</p>
+            </div>
+          </article>
+
+          <article class="capability-card">
+            <div class="capability-media">
+              <img src="assets/pdf-reference/rat-p2-2.jpg" alt="Fleet Support" loading="lazy">
+            </div>
+            <div class="capability-info">
+              <span class="capability-num">02</span>
+              <h2 data-i18n="capabilityTwo">Fleet Support</h2>
+              <p data-i18n="capabilityTwoCopy">Tug, barge, LCT, dan kontrol perjalanan.</p>
+            </div>
+          </article>
+
+          <article class="capability-card">
+            <div class="capability-media">
+              <img src="assets/pdf-reference/rak-p4-4.jpg" alt="Cargo Handling" loading="lazy">
+            </div>
+            <div class="capability-info">
+              <span class="capability-num">03</span>
+              <h2 data-i18n="capabilityThree">Cargo Handling</h2>
+              <p data-i18n="capabilityThreeCopy">Stevedoring, transshipment, stuffing, lashing.</p>
+            </div>
+          </article>
+
+          <article class="capability-card">
+            <div class="capability-media">
+              <img src="assets/pdf-reference/rak-p3-3.jpg" alt="Energy Supply" loading="lazy">
+            </div>
+            <div class="capability-info">
+              <span class="capability-num">04</span>
+              <h2 data-i18n="capabilityFour">Energy Supply</h2>
+              <p data-i18n="capabilityFourCopy">Batubara, marine fuel, dan material industri.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="intro band section-observe" id="about" data-section="intro">
+        <div class="intro-container">
+          <p class="section-kicker" data-i18n="aboutKicker">Tentang Ransa</p>
+          <div class="intro-grid">
+            <h2 data-i18n="aboutTitle">Satu portal untuk koordinasi maritime, logistics, dan commodity supply.</h2>
+            <div class="intro-copy-wrapper">
+              <p data-i18n="aboutCopy">Ransa Group dirancang sebagai wajah digital yang memudahkan calon klien memahami kapabilitas, memilih lini layanan, dan mengirim inquiry ke unit bisnis yang tepat.</p>
+              
+              <!-- Floating Photoboxes -->
+              <div class="photobox-group" aria-hidden="true">
+                <div class="floating-photobox photobox-1">
+                  <img src="assets/images/photobox-1.png" alt="Shipping Vessel Agency Operations">
+                  <span class="photobox-tag">Vessel Agency</span>
+                </div>
+                <div class="floating-photobox photobox-2">
+                  <img src="assets/images/photobox-2.png" alt="Biomass Commodity Export">
+                  <span class="photobox-tag">Commodity Export</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="truck-animation-container" aria-hidden="true">
+          <div class="asphalt-road">
+            <div class="truck-road-line"></div>
+          </div>
+          <div class="animated-truck-wrapper">
+            <img src="assets/images/trailer-40ft-transparent.png" alt="Ransa 40ft Container Trailer">
+          </div>
+        </div>
+      </section>
+
+      <section class="rak-profile section-observe" data-section="rakProfile">
+        <div class="profile-wordmark" aria-hidden="true">SERVICES UNLIMITED</div>
+        <div class="profile-shell">
+          <div class="profile-copy">
+            <p class="section-kicker" data-i18n="rakKicker">Company profile</p>
+            <h2><span>PT. Ransa</span> Agencies Kalbarindo</h2>
+            <p data-i18n="rakProfileCopy">Established in Pontianak, West Kalimantan, RAK meets the needs of shipping-related industries through agency services, clearance, permits, supplies, crew change, and port coordination.</p>
+            <div class="vision-mission">
+              <article>
+                <strong>VISION</strong>
+                <span data-i18n="rakVision">Become a tough ship agency company and the best choice for ship owners.</span>
+              </article>
+              <article>
+                <strong>MISSION</strong>
+                <span data-i18n="rakMission">Always committed to providing the best service without limits.</span>
+              </article>
+            </div>
+          </div>
+          <div class="rak-photo-frame">
+            <img src="assets/pdf-reference/rak-p2-2.jpg" alt="Ransa Agencies Kalbarindo company profile reference">
+          </div>
+        </div>
+      </section>
+
+
+      <section class="rat-profile section-observe" data-section="ratProfile">
+        <div class="rat-image" aria-hidden="true"></div>
+        <div class="rat-panel">
+          <p class="section-kicker" data-i18n="ratKicker">Ransa Armada Tangguh</p>
+          <h2 data-i18n="ratTitle">Fleet, trucking, container movement, dan site logistics dalam satu komando.</h2>
+          <div class="rat-stats">
+            <article><strong>TRK</strong><span>Trucking</span></article>
+            <article><strong>CTR</strong><span>Container</span></article>
+            <article><strong>YRD</strong><span>Open Yard</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="operations band section-observe" data-section="operations">
+        <div class="ops-bg-media" aria-hidden="true">
+          <div class="ops-bg-img" style="background-image: url('assets/images/jetty-terminal-operations.png');"></div>
+          <div class="ops-bg-overlay"></div>
+        </div>
+        <div class="section-heading">
+          <p class="section-kicker" data-i18n="opsKicker">Shipping operations</p>
+        </div>
+        <div class="ops-layout">
+          <div class="port-map" aria-label="Peta rute pelayaran">
+            <span class="map-node node-a">PNK</span>
+            <span class="map-node node-b">BPN</span>
+            <span class="map-node node-c">JKT</span>
+            <span class="map-node node-d">SBY</span>
+            <div class="map-route route-a"></div>
+            <div class="map-route route-b"></div>
+            <div class="map-route route-c"></div>
+          </div>
+          <div class="ops-board">
+            <article>
+              <small>Port Call</small>
+              <strong>Agency Appointment</strong>
+              <p data-i18n="opsPort">Koordinasi pre-arrival, dokumen kapal, bunker request, crew change, dan laporan kegiatan.</p>
+            </article>
+            <article>
+              <small>Sea Freight</small>
+              <strong>Bulk & Breakbulk</strong>
+              <p data-i18n="opsFreight">Dukungan pengiriman batu bara, material proyek, general cargo, dan industrial supply.</p>
+            </article>
+            <article>
+              <small>Field Control</small>
+              <strong>Jetty & Transshipment</strong>
+              <p data-i18n="opsField">Monitoring muat-bongkar, estimasi perjalanan, dan eskalasi operasional berbasis prioritas.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="port-coverage section-observe" data-section="portCoverage">
+        <div class="section-heading">
+          <p class="section-kicker">Port coverage</p>
+          <h2>Coverage pelabuhan di Kalimantan Barat.</h2>
+        </div>
+        <div class="port-coverage-grid">
+          <article class="port-coverage-card">
+            <div class="port-coverage-media">
+              <img src="assets/images/port-dwikora-pontianak.png" alt="Port Kijing Mempawah" loading="lazy">
+            </div>
+            <div class="port-coverage-copy">
+              <span>Port Kijing</span>
+              <h3>Mempawah</h3>
+              <p>Coverage untuk industrial cargo, bulk movement, project cargo, transshipment support, dan koordinasi logistik kawasan pelabuhan.</p>
+            </div>
+          </article>
+          <article class="port-coverage-card">
+            <div class="port-coverage-media">
+              <img src="assets/images/port-kijing-mempawah.png" alt="Port Dwikora Pontianak" loading="lazy">
+            </div>
+            <div class="port-coverage-copy">
+              <span>Port Dwikora</span>
+              <h3>Pontianak</h3>
+              <p>Coverage untuk vessel agency, container handling, clearance, ship supplies, crew change, dan port coordination di area Pontianak.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Oceanic Vessel Voyage Parallax Section -->
+      <section class="vessel-voyage-section band section-observe" id="voyage" data-section="voyage">
+        <div class="voyage-header-overlay">
+          <p class="section-kicker kicker-white">MARITIME NAVIGATION & FREIGHT VOYAGE</p>
+          <h2>Navigasi Pelayaran & Rute Kargo Maritim Terintegrasi</h2>
+        </div>
+
+        <div class="ocean-container" aria-hidden="true">
+          <div class="ocean-water">
+            <div class="ocean-waves-overlay"></div>
+            
+            <!-- Animated Floating Vessel -->
+            <div class="animated-vessel-wrapper">
+              <div class="vessel-wake-spray"></div>
+              <img src="assets/images/container-ship-transparent.png" alt="Ransa Container Cargo Vessel" class="sailing-ship">
+            </div>
+
+            <!-- Route Waypoint Markers -->
+            <div class="waypoint-marker wp-pnk">
+              <span class="wp-dot"></span>
+              <span class="wp-label">Pontianak Port</span>
+            </div>
+            <div class="waypoint-marker wp-jkt">
+              <span class="wp-dot"></span>
+              <span class="wp-label">Tanjung Priok Hub</span>
+            </div>
+            <div class="waypoint-marker wp-bpn">
+              <span class="wp-dot"></span>
+              <span class="wp-label">Balikpapan Jetty</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="service-deck band section-observe" data-section="serviceDeck">
+        <div class="service-deck-bg-media" aria-hidden="true">
+          <div class="service-deck-bg-gif" style="background-image: url('assets/images/port-crane-static.jpg');"></div>
+          <div class="service-deck-bg-overlay"></div>
+        </div>
+        <div class="section-heading">
+          <p class="section-kicker" data-i18n="serviceDeckKicker">Service deck</p>
+          <h2 data-i18n="serviceDeckTitle">Aksesori layanan shipping yang langsung bisa dibaca calon klien.</h2>
+        </div>
+        <div class="service-grid">
+          <article><span>FCL</span><h3>Ocean Freight</h3><p data-i18n="deckOcean">FCL, LCL, breakbulk, dan domestic sea freight.</p></article>
+          <article><span>CHT</span><h3>Chartering</h3><p data-i18n="deckCharter">Cargo vessel, tug & barge, LCT, dan kapal proyek.</p></article>
+          <article><span>CLC</span><h3>Customs Clearance</h3><p data-i18n="deckCustoms">Dokumen ekspor-impor dan administrasi pelabuhan.</p></article>
+          <article><span>STV</span><h3>Stevedoring</h3><p data-i18n="deckStevedore">Bongkar muat, tally, supervision, dan reporting.</p></article>
+          <article><span>WHR</span><h3>Warehouse</h3><p data-i18n="deckWarehouse">Storage, open yard, consolidation, dan distribusi.</p></article>
+          <article><span>TRK</span><h3>Trucking</h3><p data-i18n="deckTrucking">Door to port, port to site, trailer, lowbed, dan crane truck.</p></article>
+        </div>
+      </section>
+
+      <section class="timeline section-observe" data-section="timeline">
+        <div class="section-heading">
+          <p class="section-kicker" data-i18n="timelineKicker">Alur inquiry</p>
+          <h2 data-i18n="timelineTitle">Dari kebutuhan klien ke unit bisnis yang tepat.</h2>
+        </div>
+        <ol class="timeline-list">
+          <li><strong>01</strong><span data-i18n="stepOne">Klien memilih lini layanan atau komoditas.</span></li>
+          <li><strong>02</strong><span data-i18n="stepTwo">Form inquiry memetakan kebutuhan dan prioritas.</span></li>
+          <li><strong>03</strong><span data-i18n="stepThree">Tim Ransa melakukan validasi dan follow-up.</span></li>
+        </ol>
+      </section>
+
+      <section class="contact band section-observe" id="contact" data-section="contact">
+        <div class="contact-copy">
+          <p class="section-kicker" data-i18n="contactKicker">Hubungi kami</p>
+          <h2 data-i18n="contactTitle">Kirim inquiry, biarkan sistem mengarahkannya.</h2>
+          <p data-i18n="contactCopy">Pilih kebutuhan Anda agar pesan masuk ke jalur layanan yang paling relevan.</p>
+          <div class="direct-contact-card">
+            <h4>FAST RESPONSE CHANNEL</h4>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/628115750555" target="_blank" rel="noopener">+62 811 575 0555</a></p>
+            <p>Use WhatsApp for urgent port calls, fleet availability, or export quotation follow-up.</p>
+          </div>
+        </div>
+        <form class="inquiry-form" action="api/contact" method="post" data-inquiry-form>
+          <label>
+            <span data-i18n="fieldName">Nama</span>
+            <input type="text" name="name" autocomplete="name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" autocomplete="email" required>
+          </label>
+          <label>
+            <span>Company</span>
+            <input type="text" name="company" autocomplete="organization" placeholder="Company / Vessel owner / Buyer">
+          </label>
+          <label>
+            <span>Phone / WhatsApp</span>
+            <input type="tel" name="phone" autocomplete="tel" placeholder="+62 811 575 0555">
+          </label>
+          <label>
+            <span data-i18n="fieldService">Layanan</span>
+            <select name="service" required>
+              <option value="Agencies">Ransa Agencies Kalbarindo</option>
+              <option value="Armada">Ransa Armada Tangguh</option>
+              <option value="Energi">Ransa Energi Muda</option>
+            </select>
+          </label>
+          <label>
+            <span>Inquiry Type</span>
+            <select name="inquiry_type">
+              <option value="Port Agency Support">Port Agency Support</option>
+              <option value="Fleet / Logistics Quote">Fleet / Logistics Quote</option>
+              <option value="Commodity Export Quote">Commodity Export Quote</option>
+              <option value="Partnership / General">Partnership / General</option>
+            </select>
+          </label>
+          <label class="form-message-field">
+            <span data-i18n="fieldMessage">Pesan</span>
+            <textarea name="message" rows="5" required placeholder="Tell us vessel name, cargo type, origin/destination, quantity, timeline, or document needs."></textarea>
+          </label>
+          <button class="button button-primary" type="submit" data-i18n="submitInquiry">Kirim Inquiry</button>
+          <p class="form-status" role="status" data-form-status></p>
+        </form>
+      </section>
+    </main>
+
+    <a class="whatsapp-float" href="https://wa.me/628115750555" target="_blank" rel="noopener" aria-label="Chat WhatsApp Ransa">WA</a>
+
+    <footer class="site-footer">
+      <img src="assets/images/ransa-logo-transparent.png" alt="Ransa Group">
+      <p data-i18n="footerCopy">Integrated maritime, fleet, and energy portal for Indonesia.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

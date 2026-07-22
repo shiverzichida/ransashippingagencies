@@ -11,6 +11,7 @@ export function setupMotion(): void {
   const sections = document.querySelectorAll<HTMLElement>(".section-observe");
 
   sections.forEach((section) => section.classList.add("is-visible"));
+  setupCurrentSectionState(sections);
 
   if (reduceMotion) {
     setupCounters(false);
@@ -158,6 +159,49 @@ export function setupMotion(): void {
   }
 
   setupCounters(true);
+}
+
+function setupCurrentSectionState(sections: NodeListOf<HTMLElement>): void {
+  if (!sections.length) return;
+
+  let ticking = false;
+
+  const updateCurrent = (): void => {
+    let currentSection: HTMLElement | null = null;
+    let closestDistance = Number.POSITIVE_INFINITY;
+    const viewportAnchor = window.innerHeight * 0.42;
+
+    sections.forEach((section) => {
+      const rect = section.getBoundingClientRect();
+      const isInView = rect.bottom > window.innerHeight * 0.18 && rect.top < window.innerHeight * 0.72;
+
+      if (!isInView) return;
+
+      const sectionAnchor = rect.top + rect.height * 0.18;
+      const distance = Math.abs(sectionAnchor - viewportAnchor);
+
+      if (distance < closestDistance) {
+        closestDistance = distance;
+        currentSection = section;
+      }
+    });
+
+    sections.forEach((section) => {
+      section.classList.toggle("is-current", section === currentSection);
+    });
+
+    ticking = false;
+  };
+
+  const requestUpdate = (): void => {
+    if (ticking) return;
+    ticking = true;
+    window.requestAnimationFrame(updateCurrent);
+  };
+
+  updateCurrent();
+  window.addEventListener("scroll", requestUpdate, { passive: true });
+  window.addEventListener("resize", requestUpdate);
 }
 
 function setupCounters(animated: boolean): void {

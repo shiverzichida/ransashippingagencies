@@ -1600,6 +1600,114 @@ section:not(.hero) {
   color: var(--muted);
 }
 
+.port-coverage {
+  background: #FFFFFF;
+}
+
+.port-coverage-grid {
+  width: min(1180px, calc(100% - 64px));
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.port-coverage-card {
+  position: relative;
+  overflow: hidden;
+  min-height: 430px;
+  display: grid;
+  grid-template-rows: minmax(230px, 1fr) auto;
+  border: 1px solid #CBD5E1;
+  border-radius: 16px;
+  background: #FFFFFF;
+  box-shadow: 0 18px 42px rgba(15, 23, 42, 0.12);
+  transition: transform 360ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 360ms ease, border-color 260ms ease;
+}
+
+.port-coverage-card::after {
+  content: "";
+  position: absolute;
+  right: -46px;
+  bottom: -46px;
+  width: 150px;
+  height: 150px;
+  border: 18px solid rgba(45, 52, 144, 0.07);
+  transform: rotate(45deg);
+  pointer-events: none;
+}
+
+.port-coverage-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(238, 27, 42, 0.38);
+  box-shadow: 0 28px 62px rgba(15, 23, 42, 0.18);
+}
+
+.port-coverage-media {
+  position: relative;
+  overflow: hidden;
+  background: #E2E8F0;
+}
+
+.port-coverage-media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 40%, rgba(10, 25, 47, 0.38) 100%);
+}
+
+.port-coverage-media img {
+  width: 100%;
+  height: 100%;
+  min-height: 260px;
+  object-fit: cover;
+  display: block;
+  transition: transform 520ms cubic-bezier(0.16, 1, 0.3, 1), filter 520ms ease;
+}
+
+.port-coverage-card:hover .port-coverage-media img {
+  transform: scale(1.045);
+  filter: contrast(1.04) saturate(1.04);
+}
+
+.port-coverage-copy {
+  position: relative;
+  z-index: 1;
+  padding: 26px;
+}
+
+.port-coverage-copy span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: rgba(238, 27, 42, 0.09);
+  color: var(--ransa-red);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.port-coverage-card:nth-child(2) .port-coverage-copy span {
+  background: rgba(11, 82, 156, 0.1);
+  color: var(--ransa-blue);
+}
+
+.port-coverage-copy h3 {
+  margin: 18px 0 10px;
+  color: var(--ransa-dark);
+  font-size: clamp(1.7rem, 3vw, 2.5rem);
+  line-height: 1;
+}
+
+.port-coverage-copy p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
 .service-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1975,6 +2083,7 @@ section:not(.hero) {
   .company-grid,
   .contact,
   .proof-grid,
+  .port-coverage-grid,
   .capability-strip,
   .ops-layout,
   .service-grid,
@@ -2044,6 +2153,18 @@ section:not(.hero) {
 
   .proof-grid {
     width: min(100% - 32px, 460px);
+  }
+
+  .port-coverage-grid {
+    width: min(100% - 32px, 520px);
+  }
+
+  .port-coverage-card {
+    min-height: auto;
+  }
+
+  .port-coverage-copy {
+    padding: 22px;
   }
 
   .vision-mission article {

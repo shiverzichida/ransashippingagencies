@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+// Legacy/local fallback only. Production inquiries on Vercel use api/contact.js.
 header('Content-Type: application/json; charset=utf-8');
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {

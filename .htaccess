@@ -1,6 +1,8 @@
 RewriteEngine On
 RewriteBase /
 
+# Apache/PHP hosting fallback only. Production routing is configured in vercel.json.
+
 # Map /armada to armada.php
 RewriteRule ^armada/?$ armada.php [L,QSA]
 

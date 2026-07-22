@@ -1,3 +1,4 @@
+<!-- Legacy/local PHP variant. Production Vercel route uses energi.html. -->
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -16,7 +17,7 @@
     <!-- Site Header Navigation -->
     <header class="site-header" data-header>
       <nav class="nav-shell" aria-label="Navigasi utama">
-        <a class="brand" href="index.html" aria-label="Ransa Group Beranda">
+        <a class="brand" href="/" aria-label="Ransa Group Beranda">
           <img src="assets/images/ransa-logo-transparent.png" alt="Ransa Group">
         </a>
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" data-nav-toggle>
@@ -25,11 +26,11 @@
           <span></span>
         </button>
         <div class="nav-links" id="primary-nav" data-nav-menu>
-          <a href="index.html#about">Tentang</a>
-          <a href="index.html#agencies">Agencies</a>
-          <a href="armada.php">Armada</a>
-          <a href="energi.php" class="is-active">Energi</a>
-          <a href="#contact">Kontak</a>
+          <a href="/#about">Tentang</a>
+          <a href="/#agencies">Agencies</a>
+          <a href="/armada">Armada</a>
+          <a href="/energi" class="is-active">Energi</a>
+          <a href="/#contact">Kontak</a>
           <button class="language-toggle" type="button" data-lang-toggle aria-label="Ganti bahasa">EN</button>
         </div>
       </nav>

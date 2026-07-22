@@ -15,7 +15,7 @@
 
     <header class="site-header" data-header>
       <nav class="nav-shell" aria-label="Navigasi utama">
-        <a class="brand" href="#home" aria-label="Ransa Group beranda">
+        <a class="brand" href="/" aria-label="Ransa Group beranda">
           <img src="assets/images/ransa-logo-transparent.png" alt="Ransa Group">
         </a>
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" data-nav-toggle>
@@ -24,11 +24,11 @@
           <span></span>
         </button>
         <div class="nav-links" id="primary-nav" data-nav-menu>
-          <a href="#about" data-i18n="navAbout">Tentang</a>
-          <a href="#agencies" data-i18n="navAgencies">Agencies</a>
-          <a href="armada" data-i18n="navArmada">Armada</a>
-          <a href="energi" data-i18n="navEnergy">Energi</a>
-          <a href="#contact" data-i18n="navContact">Kontak</a>
+          <a href="/#about" data-i18n="navAbout">Tentang</a>
+          <a href="/#agencies" data-i18n="navAgencies">Agencies</a>
+          <a href="/armada" data-i18n="navArmada">Armada</a>
+          <a href="/energi" data-i18n="navEnergy">Energi</a>
+          <a href="/#contact" data-i18n="navContact">Kontak</a>
           <button class="language-toggle" type="button" data-lang-toggle aria-label="Ganti bahasa">EN</button>
         </div>
       </nav>
@@ -406,7 +406,7 @@
           <h2 data-i18n="contactTitle">Kirim inquiry, biarkan sistem mengarahkannya.</h2>
           <p data-i18n="contactCopy">Pilih kebutuhan Anda agar pesan masuk ke jalur layanan yang paling relevan.</p>
         </div>
-        <form class="inquiry-form" action="api/inquiry.php" method="post" data-inquiry-form>
+        <form class="inquiry-form" action="api/contact" method="post" data-inquiry-form>
           <label>
             <span data-i18n="fieldName">Nama</span>
             <input type="text" name="name" autocomplete="name" required>

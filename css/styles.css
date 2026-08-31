@@ -2053,9 +2053,9 @@ section:not(.hero) {
 }
 
 .section-observe {
-  opacity: 0;
-  transform: translateY(24px);
-  transition: opacity 800ms ease, transform 800ms ease;
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 600ms ease, transform 600ms ease;
 }
 
 main > section:not(.hero) {

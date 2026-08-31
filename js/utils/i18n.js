@@ -281,7 +281,7 @@ const dictionary = {
   enValKicker: { id: "NILAI INTI", en: "CORE VALUES" },
   enValTitle: { id: "Nilai-Nilai Utama Perusahaan", en: "Company Core Values" },
   enVal1Title: { id: "01. KAMI BERFOKUS PADA PELANGGAN", en: "01. WE'RE CUSTOMER-CENTRIC" },
-  enVal1Desc: { id: '"Pelanggan kami adalah nyawa bisnis kami. Kami cepat, fleksibel, dan berkomitmen untuk bekerja melampaui batas dalam menyediakan solusi yang memenuhi kebutuhan unik mereka."', en: '"Our customers are the lifeblood of our business. We're fast, flexible, and committed to going above and beyond to provide solutions that meet their unique needs."' },
+  enVal1Desc: { id: '"Pelanggan kami adalah nyawa bisnis kami. Kami cepat, fleksibel, dan berkomitmen untuk bekerja melampaui batas dalam menyediakan solusi yang memenuhi kebutuhan unik mereka."', en: '"Our customers are the lifeblood of our business. We are fast, flexible, and committed to going above and beyond to provide solutions that meet their unique needs."' },
   enVal2Title: { id: "02. KAMI SELALU TOTALITAS", en: "02. WE'RE ALWAYS ALL IN" },
   enVal2Desc: { id: '"Kami mempraktikkan integritas, dedikasi, akuntabilitas, dan rasa memiliki sehingga kami dapat mencapai tujuan bersama dan memenuhi janji kami."', en: '"We practice integrity, dedication, accountability, and ownership so that we can achieve our common goals and deliver on our promises."' },
   enVal3Title: { id: "03. KAMI TERUS BERKEMBANG", en: "03. WE'RE PERPETUALLY IMPROVING" },

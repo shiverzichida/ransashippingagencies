@@ -2,32 +2,6 @@
   "version": 2,
   "cleanUrls": true,
   "trailingSlash": false,
-  "rewrites": [
-    {
-      "source": "/armada",
-      "destination": "/armada.html"
-    },
-    {
-      "source": "/armada.php",
-      "destination": "/armada.html"
-    },
-    {
-      "source": "/armada/",
-      "destination": "/armada.html"
-    },
-    {
-      "source": "/energi",
-      "destination": "/energi.html"
-    },
-    {
-      "source": "/energi.php",
-      "destination": "/energi.html"
-    },
-    {
-      "source": "/energi/",
-      "destination": "/energi.html"
-    }
-  ],
   "headers": [
     {
       "source": "/assets/(.*)",

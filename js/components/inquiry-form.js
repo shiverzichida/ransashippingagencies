@@ -23,8 +23,22 @@ export function setupInquiryForm() {
         if (!response.ok || !(result.ok || result.success)) {
           throw new Error(result.message ?? "Inquiry gagal dikirim.");
         }
-        setStatus(status, "Inquiry berhasil dikirim. Tim Ransa akan menghubungi Anda.");
+        setStatus(status, "Inquiry berhasil dikirim. Mengalihkan ke WhatsApp...");
         form.reset();
+
+        // Construct WhatsApp message
+        const waNumber = "628115750555";
+        const companyStr = payload.company ? ` dari ${payload.company}` : "";
+        let topicStr = "";
+        if (payload.commodity) topicStr = `Komoditas: ${payload.commodity}\n`;
+        if (payload.fleet_type) topicStr = `Tipe Armada: ${payload.fleet_type}\n`;
+        if (payload.service) topicStr = `Layanan: ${payload.service}\n`;
+
+        const waText = `Halo, saya ${payload.name}${companyStr}.\n\nSaya ingin menanyakan perihal divisi ${payload.division}.\n${topicStr}\nPesan:\n${getValue(data, "message")}\n\nKontak saya:\nEmail: ${payload.email}\nNo HP: ${payload.phone}`;
+        
+        const waUrl = `https://wa.me/${waNumber}?text=${encodeURIComponent(waText)}`;
+        window.location.href = waUrl;
+
       } catch (error) {
         setStatus(status, error instanceof Error ? error.message : "Inquiry gagal dikirim.");
       }

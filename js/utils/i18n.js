@@ -152,7 +152,56 @@ const dictionary = {
     id: "Integrated maritime, fleet, and energy portal for Indonesia.",
     en: "Integrated maritime, fleet, and energy portal for Indonesia."
   },
-  adminLink: { id: "Admin Login", en: "Admin Login" }
+  adminLink: { id: "Admin Login", en: "Admin Login" },
+
+  // ARMADA KEYS
+  armadaHeroBadge: { id: "PT. RANSA ARMADA TANGGUH", en: "PT. RANSA ARMADA TANGGUH" },
+  armadaHeroTitle: { id: "INTEGRATED FLEET, TRUCKING & SITE LOGISTICS", en: "INTEGRATED FLEET, TRUCKING & SITE LOGISTICS" },
+  armadaHeroSub: { id: "SOLUSI TRANSPORTASI DARAT, ALAT BERAT, DAN LOGISTIK SITUS TERDEPAN DARI SABANG HINGGA MERAUKE", en: "LEADING LAND TRANSPORTATION, HEAVY EQUIPMENT, AND SITE LOGISTICS SOLUTIONS FROM SABANG TO MERAUKE" },
+  armadaBtnSpec: { id: "SPESIFIKASI ARMADA", en: "FLEET SPECIFICATIONS" },
+  armadaBtnInquiry: { id: "RESERVASI / INQUIRY", en: "RESERVATION / INQUIRY" },
+  armadaAboutKicker: { id: "COMPANY OVERVIEW", en: "COMPANY OVERVIEW" },
+  armadaAboutTitle: { id: "Jaringan Distribusi & Transportasi Darat Terintegrasi", en: "Integrated Land Transportation & Distribution Network" },
+  armadaAboutP1: { id: "PT. Ransa Armada Tangguh (RAT) adalah perusahaan penyedia jasa transportasi darat dan pendukung logistik yang terintegrasi secara profesional. Kami melayani pengiriman kargo industri, pengangkutan alat berat, kontainer 40ft, sewa crane, serta manajemen open yard depot di berbagai wilayah strategis Indonesia.", en: "PT. Ransa Armada Tangguh (RAT) is a professionally integrated land transportation and logistics support provider. We serve industrial cargo shipping, heavy equipment transport, 40ft containers, crane rental, and open yard depot management across strategic regions in Indonesia." },
+  armadaAboutP2: { id: "Dengan jaringan operasional melintasi koridor pulau utama dari Sabang sampai Merauke, PT. Ransa Armada Tangguh memastikan ketepatan waktu, efisiensi biaya, dan keamanan tingkat tinggi untuk setiap kargo yang dipercayakan.", en: "With an operational network across major island corridors from Sabang to Merauke, PT. Ransa Armada Tangguh ensures punctuality, cost efficiency, and top-tier security for every entrusted cargo." },
+  armadaVisTitle: { id: "VISI UTAMA", en: "CORE VISION" },
+  armadaVisDesc: { id: "Menjadi mitra logistik darat & armada transportasi terdepan dan terpercaya di Indonesia dengan standar keandalan tinggi.", en: "To become the leading and trusted land logistics & transportation fleet partner in Indonesia with high reliability standards." },
+  armadaMisTitle: { id: "MISI EKSEKUSI", en: "EXECUTION MISSION" },
+  armadaMisDesc: { id: "Menyediakan unit transportasi prima, driver tersertifikasi, pengawasan kontrol lapangan 24/7, dan layanan berorientasi kepuasan klien.", en: "Providing prime transportation units, certified drivers, 24/7 field control supervision, and client satisfaction-oriented services." },
+  armadaSvcKicker: { id: "LAYANAN UTAMA", en: "MAIN SERVICES" },
+  armadaSvcTitle: { id: "Lini Layanan Ransa Armada Tangguh", en: "Ransa Armada Tangguh Service Lines" },
+  
+  // ENERGI KEYS
+  energiHeroBadge: { id: "PT. RANSA ENERGI MUDA", en: "PT. RANSA ENERGI MUDA" },
+  energiHeroTitle: { id: "AGRICULTURE COMMODITY TRADING & BIOMASS EXPORT", en: "AGRICULTURE COMMODITY TRADING & BIOMASS EXPORT" },
+  energiHeroSub: { id: "EKSPORTIR TERINTEGRASI UNTUK PALM KERNEL SHELL (PKS), PALM KERNEL EXPELLER (PKE), DAN HASIL PERKEBUNAN KE PASAR GLOBAL", en: "INTEGRATED EXPORTER FOR PALM KERNEL SHELL (PKS), PALM KERNEL EXPELLER (PKE), AND PLANTATION COMMODITIES TO GLOBAL MARKETS" },
+  energiBtnCat: { id: "KATALOG PRODUK / PRODUCTS", en: "PRODUCT CATALOG / PRODUCTS" },
+  energiBtnQuote: { id: "REQUEST EXPORT QUOTE", en: "REQUEST EXPORT QUOTE" },
+  energiAboutKicker: { id: "ABOUT US", en: "ABOUT US" },
+  energiAboutTitle: { id: "Integrated Agriculture & Biomass Commodity Exporter", en: "Integrated Agriculture & Biomass Commodity Exporter" },
+  energiVisTitle: { id: "OUR VISION", en: "OUR VISION" },
+  energiVisDesc: { id: "To become a leading and sustainable agriculture commodity trading company by producing quality products that are beneficial globally.", en: "To become a leading and sustainable agriculture commodity trading company by producing quality products that are beneficial globally." },
+  energiMisTitle: { id: "OUR MISSION", en: "OUR MISSION" },
+  energiMisDesc: { id: "Being an honest, fair, and trusted business partner, exceeding customer expectations while ensuring product quality and long-term sustainable growth for all stakeholders.", en: "Being an honest, fair, and trusted business partner, exceeding customer expectations while ensuring product quality and long-term sustainable growth for all stakeholders." },
+  energiWhyKicker: { id: "WHY CHOOSE US", en: "WHY CHOOSE US" },
+  energiWhyTitle: { id: "Keunggulan Kompetitif PT. Ransa Energi Muda", en: "Competitive Advantages of PT. Ransa Energi Muda" },
+  energiProdKicker: { id: "OUR PRODUCTS", en: "OUR PRODUCTS" },
+  energiProdTitle: { id: "Katalog Komoditas Perkebunan & Biomass Energy", en: "Plantation Commodity & Biomass Energy Catalog" },
+  energiInquiryTitle: { id: "Request Export Quote / Minta Penawaran Komoditas", en: "Request Export Quote / Minta Penawaran Komoditas" },
+
+  // KRATOM & SPEC TABLES
+  productKratomTitle: { id: "MITRAGYNA SPECIOSA (KRATOM)", en: "MITRAGYNA SPECIOSA (KRATOM)" },
+  productKratomDesc: { 
+    id: "Kratom (Mitragyna speciosa) adalah tanaman botani endemik yang berasal dari hutan tropis Kalimantan Barat. Dikenal secara global karena khasiatnya yang unik, kami mengekspor daun remahan (crushed leaf) kualitas premium, bubuk halus (fine powder), dan campuran khusus. Diproses di fasilitas dalam ruangan yang steril dengan kontrol kualitas ketat untuk memastikan tidak ada kontaminan dan memiliki profil alkaloid tinggi.", 
+    en: "Kratom (Mitragyna speciosa) is an endemic botanical plant originating from the tropical forests of West Kalimantan. Known globally for its unique properties, we export premium grade crushed leaf, fine powder, and special blends. Processed in sterile indoor facilities with strict quality control to ensure zero contaminants and high alkaloid profiles." 
+  },
+  kratomName: { id: "Kratom / Mitragyna Speciosa", en: "Kratom / Mitragyna Speciosa" },
+  localName: { id: "Nama Lokal", en: "Local Name" },
+  species: { id: "Spesies", en: "Species" },
+  origin: { id: "Asal (Origin)", en: "Origin" },
+  originKalbar: { id: "Indonesia (Kalimantan Barat)", en: "Indonesia (West Kalimantan)" },
+  specGrade: { id: "Spesifikasi", en: "Specification" },
+  kratomGrade: { id: "Fine Powder / Crushed Leaf (Premium Grade)", en: "Fine Powder / Crushed Leaf (Premium Grade)" }
 };
 
 export function setupI18n() {

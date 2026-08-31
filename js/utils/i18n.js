@@ -7,25 +7,25 @@ const dictionary = {
   heroEyebrow: { id: "Portal korporat terintegrasi", en: "Integrated corporate portal" },
   heroTitle: { id: "Ransa Group", en: "Ransa Group" },
   heroTitleMain: { id: "RANSA GROUP", en: "RANSA GROUP" },
-  heroSubtitle: { id: "INTEGRATED SHIPPING, LOGISTICS, & GLOBAL EXPORT SOLUTIONS", en: "INTEGRATED SHIPPING, LOGISTICS, & GLOBAL EXPORT SOLUTIONS" },
-  heroExploreBtn: { id: "EXPLORE OUR DIVISIONS", en: "EXPLORE OUR DIVISIONS" },
+  heroSubtitle: { id: "Solusi Maritim, Logistik & Ekspor Terintegrasi", en: "Integrated Maritime, Logistics & Export Solutions" },
+  heroExploreBtn: { id: "Hubungi Tim Kami", en: "Talk to Our Team" },
   cardAgenciesTitle: { id: "RANSA AGENCIES KALBARINDO", en: "RANSA AGENCIES KALBARINDO" },
-  cardAgenciesSub: { id: "MARINE & PORT AGENCIES", en: "MARINE & PORT AGENCIES" },
-  cardAgenciesCopy: { id: "Efficient Port Clearance, Ship Supplies, Crew Change, Syahbandar Services, Special Operations in West Kalimantan.", en: "Efficient Port Clearance, Ship Supplies, Crew Change, Syahbandar Services, Special Operations in West Kalimantan." },
-  cardAgenciesBtn: { id: "REQUEST PORT AGENCY", en: "REQUEST PORT AGENCY" },
+  cardAgenciesSub: { id: "Keagenan Maritim & Pelabuhan", en: "Marine & Port Agency" },
+  cardAgenciesCopy: { id: "Layanan keagenan maritim dan pelabuhan profesional untuk mendukung operasi kapal dan koordinasi pelabuhan.", en: "Professional marine and port agency services to support vessel operations and port coordination." },
+  cardAgenciesBtn: { id: "Jelajahi Layanan", en: "Explore Services" },
   cardArmadaTitle: { id: "RANSA ARMADA TANGGUH", en: "RANSA ARMADA TANGGUH" },
-  cardArmadaSub: { id: "INTEGRATED LOGISTICS & CARGO", en: "INTEGRATED LOGISTICS & CARGO" },
-  cardArmadaCopy: { id: "Container Shipping, Trucking, Custom Clearance, Stevedoring, Distribution, Special Project Cargo Handling.", en: "Container Shipping, Trucking, Custom Clearance, Stevedoring, Distribution, Special Project Cargo Handling." },
-  cardArmadaBtn: { id: "VIEW LOGISTICS", en: "VIEW LOGISTICS" },
+  cardArmadaSub: { id: "Logistik & Kargo Terintegrasi", en: "Integrated Logistics & Cargo" },
+  cardArmadaCopy: { id: "Pergerakan kargo end-to-end dari pelabuhan ke tujuan dengan koordinasi lapangan yang dapat diandalkan.", en: "End-to-end cargo movement from port to destination with reliable field coordination." },
+  cardArmadaBtn: { id: "Jelajahi Layanan", en: "Explore Services" },
   cardEnergiTitle: { id: "RANSA ENERGI MUDA", en: "RANSA ENERGI MUDA" },
-  cardEnergiSub: { id: "GLOBAL EXPORT COMMODITIES", en: "GLOBAL EXPORT COMMODITIES" },
-  cardEnergiCopy: { id: "Quality Products from West Kalimantan: Palm Kernel, Palm Kernel Shell, Mitragyna Speciosa (kratom), Coconut Commodities.", en: "Quality Products from West Kalimantan: Palm Kernel, Palm Kernel Shell, Mitragyna Speciosa (kratom), Coconut Commodities." },
-  cardEnergiBtn: { id: "VIEW COMMODITIES", en: "VIEW COMMODITIES" },
+  cardEnergiSub: { id: "Komoditas Ekspor Global", en: "Global Commodities & Export" },
+  cardEnergiCopy: { id: "Mengekspor komoditas Indonesia ke pasar global dengan integritas dan kemitraan berkelanjutan.", en: "Exporting Indonesian commodities to global markets with integrity and sustainable partnerships." },
+  cardEnergiBtn: { id: "Jelajahi Layanan", en: "Explore Services" },
   heroCopy: {
-    id: "Menaungi layanan maritime agencies, armada operasional, dan energi muda dengan standar pelayanan premium untuk rantai pasok Indonesia.",
-    en: "Uniting maritime agencies, operational fleet support, and young energy supply with premium service standards for Indonesia's supply chain."
+    id: "Menghubungkan pelabuhan, memindahkan kargo, dan memberikan nilai lebih di seluruh Indonesia dan dunia.",
+    en: "Connecting ports, moving cargo, and delivering value across Indonesia and the world."
   },
-  heroCta: { id: "Mulai Inquiry", en: "Start Inquiry" },
+  heroCta: { id: "Dapatkan Penawaran", en: "Get a Quote" },
   heroExplore: { id: "Jelajahi Lini Bisnis", en: "Explore Business Lines" },
   metricCompanies: { id: "Perusahaan inti", en: "Core companies" },
   metricOps: { id: "Jam respons operasi", en: "Hour operations response" },
@@ -44,8 +44,8 @@ const dictionary = {
     en: "One portal for maritime, logistics, and commodity supply coordination."
   },
   aboutCopy: {
-    id: "Ransa Group dirancang sebagai wajah digital yang memudahkan calon klien memahami kapabilitas, memilih lini layanan, dan mengirim inquiry ke unit bisnis yang tepat.",
-    en: "Ransa Group is designed as a digital front door that helps clients understand capabilities, select service lines, and route inquiries to the right business unit."
+    id: "Memberikan solusi terintegrasi melalui unit bisnis khusus kami.",
+    en: "Delivering integrated solutions through our specialized business units."
   },
   rakKicker: { id: "Company profile", en: "Company profile" },
   rakProfileCopy: {
@@ -60,8 +60,8 @@ const dictionary = {
     id: "Selalu berkomitmen memberikan layanan terbaik tanpa batas.",
     en: "Always committed to providing the best service without limits."
   },
-  companiesKicker: { id: "Lini bisnis", en: "Business lines" },
-  companiesTitle: { id: "Tiga entitas, satu standar eksekusi.", en: "Three entities, one execution standard." },
+  companiesKicker: { id: "Divisi Bisnis Kami", en: "Our Business Divisions" },
+  companiesTitle: { id: "Tiga Divisi Kuat. Satu Komitmen.", en: "Three Strong Divisions. One Commitment." },
   agencyCopy: {
     id: "Layanan agency dan koordinasi pelabuhan untuk kebutuhan kapal, dokumen, dan operasional maritime.",
     en: "Agency and port coordination services for vessels, documents, and maritime operations."
@@ -202,6 +202,60 @@ const dictionary = {
   originKalbar: { id: "Indonesia (Kalimantan Barat)", en: "Indonesia (West Kalimantan)" },
   specGrade: { id: "Spesifikasi", en: "Specification" },
   kratomGrade: { id: "Fine Powder / Crushed Leaf (Premium Grade)", en: "Fine Powder / Crushed Leaf (Premium Grade)" }
+
+  // INDEX NEW KEYS
+  rakList1: { id: "Keagenan Kapal", en: "Shipping Agency" },
+  rakList2: { id: "Keagenan Pelabuhan", en: "Port Agency" },
+  rakList3: { id: "Layanan Kru & Kebutuhan Kapal", en: "Husbandry & Crew Services" },
+  rakList4: { id: "Dokumen & Perizinan (Clearance)", en: "Documentation & Clearance" },
+  
+  ratList1: { id: "Transportasi Truk", en: "Trucking & Transportation" },
+  ratList2: { id: "Bongkar Muat (Stevedoring)", en: "Stevedoring & Cargo Handling" },
+  ratList3: { id: "Jasa Pengiriman Barang (Freight Forwarding)", en: "Freight Forwarding" },
+  ratList4: { id: "Gudang & Distribusi", en: "Warehouse & Distribution" },
+  
+  remList1: { id: "Cangkang Sawit & Biomass", en: "Coconut Shell & Biomass" },
+  remList2: { id: "Produk Pertanian", en: "Agricultural Products" },
+  remList3: { id: "Mineral & Sumber Daya Alam", en: "Mineral & Natural Resources" },
+  remList4: { id: "Akses Pasar Global", en: "Global Market Access" },
+
+  statVessels: { id: "Kapal Dilayani", en: "Vessels Served" },
+  statCargo: { id: "Ton Kargo", en: "Tons of Cargo" },
+  statFleet: { id: "Armada & Peralatan", en: "Fleet & Equipment" },
+  statPorts: { id: "Pelabuhan Strategis", en: "Strategic Ports" },
+  statProfessionals: { id: "Profesional", en: "Professionals" },
+
+  indKicker: { id: "Industri yang Kami Layani", en: "Industries We Serve" },
+  indTitle: { id: "Solusi untuk Setiap Industri", en: "Solutions for Every Industry" },
+  indSub: { id: "Kami memahami bisnis Anda dan memberikan solusi logistik yang tepat.", en: "We understand your business and deliver the right logistics solutions." },
+  ind1: { id: "Pupuk & Pertanian", en: "Fertilizer & Agricultural" },
+  ind2: { id: "Kelapa Sawit & Turunannya", en: "Palm Oil & Derivatives" },
+  ind3: { id: "Pertambangan & Mineral", en: "Mining & Minerals" },
+  ind4: { id: "Kargo Curah & Komoditas", en: "Bulk Cargo & Commodities" },
+  ind5: { id: "Kargo Umum & Kontainer", en: "General Cargo & Container" },
+  ind6: { id: "Kargo Ekspor & Impor", en: "Export & Import Cargo" },
+
+  ops2Kicker: { id: "Operasional Kami", en: "Our Operations" },
+  ops2Title: { id: "Operasi Nyata. Hasil Nyata.", en: "Real Operations. Real Results." },
+  ops2Sub: { id: "Dipercaya oleh mitra untuk menangani kargo penting di seluruh Indonesia.", en: "Trusted by partners to handle important cargo across Indonesia." },
+  ops2Btn: { id: "Lihat Semua Proyek", en: "View All Projects" },
+  
+  proj1Title: { id: "Logistik Pupuk", en: "Fertilizer Logistics" },
+  proj1Sub: { id: "Pelabuhan Kijing, Kalimantan Barat", en: "Port Kijing, West Kalimantan" },
+  proj2Title: { id: "Transportasi Kargo Curah", en: "Bulk Cargo Transportation" },
+  proj2Sub: { id: "Distribusi gudang Pontianak", en: "Pontianak warehouse distribution" },
+  proj3Title: { id: "Penanganan Kargo Proyek", en: "Project Cargo Handling" },
+  proj3Sub: { id: "Penanganan alat berat di pelabuhan", en: "Heavy equipment port handling" },
+  proj4Title: { id: "Komoditas Ekspor", en: "Export Commodities" },
+  proj4Sub: { id: "Penanganan ekspor dan logistik", en: "Export handling and logistics" },
+
+  footerQuick: { id: "Tautan Cepat", en: "Quick Links" },
+  footerHome: { id: "Beranda", en: "Home" },
+  footerContactUs: { id: "Hubungi Kami", en: "Contact Us" },
+  footerGetInTouch: { id: "Mari Berbincang", en: "Get In Touch" },
+  footerDiscuss: { id: "Mari diskusikan bagaimana kami bisa mendukung bisnis Anda.", en: "Let’s discuss how we can support your business." },
+  footerChat: { id: "Chat via WhatsApp", en: "Chat on WhatsApp" },
+  waFloat: { id: "Chat dengan kami", en: "Chat with us" },
 };
 
 export function setupI18n() {

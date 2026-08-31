@@ -201,7 +201,7 @@ const dictionary = {
   origin: { id: "Asal (Origin)", en: "Origin" },
   originKalbar: { id: "Indonesia (Kalimantan Barat)", en: "Indonesia (West Kalimantan)" },
   specGrade: { id: "Spesifikasi", en: "Specification" },
-  kratomGrade: { id: "Fine Powder / Crushed Leaf (Premium Grade)", en: "Fine Powder / Crushed Leaf (Premium Grade)" }
+  kratomGrade: { id: "Fine Powder / Crushed Leaf (Premium Grade)", en: "Fine Powder / Crushed Leaf (Premium Grade)" },
 
   // INDEX NEW KEYS
   rakList1: { id: "Keagenan Kapal", en: "Shipping Agency" },

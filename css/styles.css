@@ -2950,7 +2950,9 @@ main > section:not(.hero) {
 .hp2-division-card {
   position: relative;
   overflow: hidden;
-  min-height: 520px;
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
   padding: 0 26px 28px;
   border: 1px solid #CBD5E1;
   border-radius: 14px;
@@ -3017,9 +3019,10 @@ main > section:not(.hero) {
 }
 
 .hp2-division-card ul {
-  margin: 18px 0 22px;
+  margin: 16px 0 22px;
   padding: 0;
   list-style: none;
+  flex-grow: 1;
 }
 
 .hp2-division-card li {
@@ -3036,8 +3039,9 @@ main > section:not(.hero) {
 .hp2-division-card a {
   display: inline-flex;
   align-items: center;
+  align-self: flex-start;
   min-height: 40px;
-  padding: 0 16px;
+  padding: 0 18px;
   border-radius: 999px;
   color: #FFFFFF;
   font-size: 0.76rem;

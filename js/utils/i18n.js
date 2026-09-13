@@ -204,20 +204,15 @@ const dictionary = {
   kratomGrade: { id: "Fine Powder / Crushed Leaf (Premium Grade)", en: "Fine Powder / Crushed Leaf (Premium Grade)" },
 
   // INDEX NEW KEYS
-  rakList1: { id: "Keagenan Kapal", en: "Shipping Agency" },
-  rakList2: { id: "Keagenan Pelabuhan", en: "Port Agency" },
-  rakList3: { id: "Layanan Kru & Kebutuhan Kapal", en: "Husbandry & Crew Services" },
-  rakList4: { id: "Dokumen & Perizinan (Clearance)", en: "Documentation & Clearance" },
+  rakList1: { id: "Shipping Agency", en: "Shipping Agency" },
+  rakList2: { id: "Barge Chartering & Operator", en: "Barge Chartering & Operator" },
   
-  ratList1: { id: "Transportasi Truk", en: "Trucking & Transportation" },
-  ratList2: { id: "Bongkar Muat (Stevedoring)", en: "Stevedoring & Cargo Handling" },
-  ratList3: { id: "Jasa Pengiriman Barang (Freight Forwarding)", en: "Freight Forwarding" },
-  ratList4: { id: "Gudang & Distribusi", en: "Warehouse & Distribution" },
+  ratList1: { id: "Freight Forwarding", en: "Freight Forwarding" },
+  ratList2: { id: "Logistics", en: "Logistics" },
+  ratList3: { id: "Stevedoring, Cargodooring, Receiving Delivery", en: "Stevedoring, Cargodooring, Receiving Delivery" },
   
-  remList1: { id: "Cangkang Sawit & Biomass", en: "Coconut Shell & Biomass" },
-  remList2: { id: "Produk Pertanian", en: "Agricultural Products" },
-  remList3: { id: "Mineral & Sumber Daya Alam", en: "Mineral & Natural Resources" },
-  remList4: { id: "Akses Pasar Global", en: "Global Market Access" },
+  remList1: { id: "Trader", en: "Trader" },
+  remList2: { id: "Ekspor Commodity", en: "Export Commodity" },
 
   statVessels: { id: "Kapal Dilayani", en: "Vessels Served" },
   statCargo: { id: "Ton Kargo", en: "Tons of Cargo" },
